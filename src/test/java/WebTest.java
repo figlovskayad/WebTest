@@ -35,7 +35,7 @@ public class WebTest {
     }
 
     @Test
-    void shouldTestFom() {
+    void shouldTestForm() {
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Иванов Иван");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+77777777777");
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
